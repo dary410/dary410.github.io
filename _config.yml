@@ -1,0 +1,14 @@
+#Site settings
+title: Dary Hsu
+description: Thinker//Designer//Marketer
+email: dary410@gmail.com
+
+#Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 9000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
