@@ -9,8 +9,8 @@ email: dary@daryproduct.com
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: Projects, url: '#work'}
+- {name: Experiences, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -45,14 +45,14 @@ blurb: >
 
 
 skills:
-- {name: Communication, value: '9'}
-- {name: Marketing, value: '7'}
-- {name: Planning, value: '10'}
+- {name: Communication, value: '7'}
+- {name: Planning, value: '8'}
+- {name: Architectural Design, value: '6'}
 - {name: UX Design, value: '5'}
-- {name: Visual Design, value: '7'}
-- {name: Project Management, value: '5'}
-- {name: Programming, value: '8'}
-- {name: Product Marketing, value: '6'}
+- {name: Visual Design, value: '8'}
+- {name: Project Management, value: '7'}
+- {name: Programming, value: '1'}
+- {name: Product Marketing, value: '8'}
 
 #-------------------------------
 # Work Section
