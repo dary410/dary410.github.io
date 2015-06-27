@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: daryproduct
-description: Thinker // Designer // Marketer
+description: Think // Design // Create // Market
 email: dary@daryproduct.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
@@ -89,24 +89,22 @@ clients:
 - {avatar: 'Box-logo.jpg',
   name: 'Box',
   title: 'Customer Success Operations Intern',
-  quote: '<h5>June 2013 - Present</h5>
-          <p><li>Drive mobile solution adoption by creating personas/storyboard to understand user workflow, and defining metrics to increase mobile app adoption by analyzing customer usage, reviews, and competitors</li></p>
-          <p><li>Develop vertical marketing strategy and materials to drive product adoption in the legal industry; present to global sales force in a sales training webinar</li></p>
-          <p><li>Execute product launch plan including planning launch event, updating datasheets and web contents, preparing analyst briefing materials, and creating sales alert and use cases to demonstrate product features</li></p>
-          <p><li>Collaborate on product development with cross-functional team of sales, product management, public relations</li></p>
-          <p><li>Enhance mobile app UX through usability research; monitor competitor and industry trends to make product feature recommendations</li></p>
-          <p><li>Create internal sales materials and outbound marketing collaterals such as datasheet, web content, blogs, e-newsletter</li></p>',
+  quote: '<h5>May 2012 - September 2012</h5>
+          <p><li>Collaborated with Engineering to automate in-app upgrade conversion process and reduce man-hours by 70%</li></p>
+          <p><li>Developed strategy to streamline Billing Operations cancellation process by identifying dependencies</li></p>
+          <p><li>Oversaw entire customer lifecycle from provisioning to close lost accounts in Salesforce and internal tools</li></p>
+          <p><li>Built Salesforce reports to quantify Client Services upsell opportunities and account growth forecasts</li></p>',
   logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg',
-  name: 'Stacy Lang',
-  title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+- {avatar: 'WLC-logo.jpg',
+  name: 'WLC Architects',
+  title: 'Designer',
+  quote: '<h5>August 2008 - September 2011</h5>
+          <p><li>Generated unique design concepts with innovative building systems and materials that incorporates guidelines from design charades with clients</li></p>
+          <p><li>Coordinated cross function consultant team to provide integrative, comprehensive solutions while enhancing productivity and communication</li></p>
+          <p><li>Created marketing proposals and meeting presentation materials that successfully increased number of request for proposals and new projects</li></p>
+          <p><li>Generated preliminary project schedule and budget estimates</li></p>
+          <p><li>Developed master plan, schematic, design, construction drawings for state agency DSA submittal</li></p>',
   logo: 'logo3.png'}
-- {avatar: 'face-teleject.jpg',
-  name: 'Cleatus Cassidy',
-  title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
-  logo: 'logo4.png'}
 
 
 #-------------------------------
