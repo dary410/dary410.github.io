@@ -373,7 +373,7 @@ td, th {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 /* Animation: fadeIn
- * Source: Dylan Spicker
+ * Source: Dylan Spicker 
  * Rewrite: niklasravnsborg */
 /* Animation: bottomUp
  * Source: Travis Nielson */
@@ -612,14 +612,14 @@ header, footer {
 header {
   background-position: 30px 20px, 50% 50%;
   background-image: url(../img/logo.svg), url(../img/bg.jpg);
-  padding-bottom: 23%; }
+  padding-bottom: 22%; }
   header .logo {
     height: 50px;
     width: 50px;
     float: left;
     margin: 10px 0 0 30px; }
     header .logo path {
-      fill: white; }
+      fill: rgba(0, 0, 0, 0.4); }
   header nav {
     float: right;
     padding: 30px 30px 0 0; }
@@ -638,7 +638,7 @@ header {
     letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
-    padding-top: 250px; }
+    padding-top: 240px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -673,13 +673,13 @@ footer {
         margin: 0;
         text-transform: uppercase;
         font-size: 12px;
-        color: rgba(0, 0, 0, 0.4); }
+        color: rgba(255, 255, 255, 0.5); }
       footer .lockup .content-wrap a {
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(255, 255, 255, 0.7);
         display: inline-block;
         margin-right: 30px; }
         footer .lockup .content-wrap a:hover {
-          color: rgba(0, 0, 0, 0.7); }
+          color: white; }
 
 .face-lockup {
   max-width: 780px;
@@ -872,7 +872,7 @@ footer {
 
 .thumb-container {
   display: block;
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0px auto; }
   .thumb-container:after {
     content: "";
