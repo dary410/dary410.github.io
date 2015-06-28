@@ -2,17 +2,11 @@ header
   @extend %background-image
   background:
     position: 30px 20px, 50% 50%
+    opacity: 1
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
-  padding-bottom: 22%
+  padding-bottom: 18%
 
 
-  .logo
-    +size(50px)
-    float: left
-    margin: 10px 0 0 30px
-
-    path
-      fill: rgba(0,0,0,0.4)
 
   nav
     float: right
@@ -52,6 +46,15 @@ header
     letter-spacing: 0.05em
     color: white
     line-height: 1
+
+  .down
+    position: relative
+    top: 240px
+    text-align: center
+    a
+      color: pink
+      img
+        +size(50px)
 
 @media (max-width: 640px)
   header
