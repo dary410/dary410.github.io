@@ -657,7 +657,7 @@ header {
 
 @media (max-width: 640px) {
   header {
-    background-position: 50% 50%; }
+    position: 50% 50%; }
     header .logo {
       margin: 20px 50%; }
     header nav {
