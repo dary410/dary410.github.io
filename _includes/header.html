@@ -1,5 +1,7 @@
 <header id="header">
-  <div class="logo"></div>
+  <div class="logo-container">
+    <a class="logo-img" href="/"></a>
+  </div>
   <nav>
     {% for item in site.data.settings.menu %}
       <a href="{{ item.url }}">{{ item.name }}</a>

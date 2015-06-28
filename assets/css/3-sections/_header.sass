@@ -1,11 +1,14 @@
 header
   background: url(../img/#{$hero-path}) no-repeat center center fixed
     size: cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
 
-  .logo
-    +size(50px)
+  .logo-img
     background:
       image: url(../img/#{$logo-path})
+    +size(50px)
     float: left
     margin: 20px 0 0 30px
     opacity: 0.7
@@ -60,10 +63,10 @@ header
 
 @media (max-width: 640px)
   header
-    position: 50% 50%
+    position: 50% 20px
 
-    .logo
-      margin: 20px 50%
+    .logo-img
+      margin: 20px 44%
 
     nav
       float: none
