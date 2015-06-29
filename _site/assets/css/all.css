@@ -611,7 +611,8 @@ header {
   background: url(../img/bg.jpg) no-repeat center center;
     background-size: cover;
     background-overflow: hidden;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
   header .logo-img {
     background-image: url(../img/logo.svg);
     height: 50px;
@@ -649,10 +650,9 @@ header {
       color: white;
       line-height: 1; }
   header .down {
-    display: block;
     position: absolute;
     bottom: 0px;
-    right: 50%; }
+    right: 48%; }
     header .down a {
       color: pink; }
       header .down a img {
@@ -665,10 +665,9 @@ header {
     header .logo-img {
       margin: 20px 44%; }
     header .title-description {
-      top: 3%; }
+      top: 5%; }
     header .down {
-      right: 45%;
-      bottom: 40%; }
+      right: 44%; }
     header nav {
       float: none;
       text-align: center;
