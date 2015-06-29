@@ -610,9 +610,8 @@ footer {
 header {
   background: url(../img/bg.jpg) no-repeat center center fixed;
     background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+    background-overflow: hidden;
+  height: 100vh; }
   header .logo-img {
     background-image: url(../img/logo.svg);
     height: 50px;
@@ -670,7 +669,8 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/bg.jpg); }
+  background-image: url(../img/bg.jpg);
+  width: 100%; }
   footer .logo-img {
     height: 50px;
     width: 50px;
