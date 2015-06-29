@@ -652,8 +652,7 @@ header {
     display: block;
     position: absolute;
     bottom: 0px;
-    right: 50%;
-    text-align: center; }
+    right: 50%; }
     header .down a {
       color: pink; }
       header .down a img {
@@ -662,13 +661,14 @@ header {
 
 @media (max-width: 640px) {
   header {
-    height: 65vh; }
+    height: 60vh; }
     header .logo-img {
       margin: 20px 44%; }
     header .title-description {
-      top: 10%; }
+      top: 3%; }
     header .down {
-      bottom: 36%; }
+      right: 45%;
+      bottom: 40%; }
     header nav {
       float: none;
       text-align: center;
