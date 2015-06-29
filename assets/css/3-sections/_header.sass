@@ -1,5 +1,5 @@
 header
-  background: url(../img/#{$hero-path}) no-repeat center center fixed
+  background: url(../img/#{$hero-path}) no-repeat center center
     size: cover
     overflow: hidden
   height: 100vh
@@ -25,6 +25,7 @@ header
 
       &:hover
         color: rgba(255,255,255,1)
+
   .title-description
     position: relative
     top: 28%
@@ -52,8 +53,9 @@ header
       line-height: 1
 
   .down
+    display: block
     position: absolute
-    bottom: 10px
+    bottom: 0px
     right: 50%
     text-align: center
     a
@@ -63,10 +65,16 @@ header
 
 @media (max-width: 640px)
   header
-    position: 50% 20px
+    height: 65vh
 
     .logo-img
       margin: 20px 44%
+
+    .title-description
+      top: 10%
+
+    .down
+      bottom: 36%
 
     nav
       float: none

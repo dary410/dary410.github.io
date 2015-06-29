@@ -608,7 +608,7 @@ footer {
     background-size: cover; }
 
 header {
-  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background: url(../img/bg.jpg) no-repeat center center;
     background-size: cover;
     background-overflow: hidden;
   height: 100vh; }
@@ -649,8 +649,9 @@ header {
       color: white;
       line-height: 1; }
   header .down {
+    display: block;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 50%;
     text-align: center; }
     header .down a {
@@ -661,9 +662,13 @@ header {
 
 @media (max-width: 640px) {
   header {
-    position: 50% 20px; }
+    height: 65vh; }
     header .logo-img {
       margin: 20px 44%; }
+    header .title-description {
+      top: 10%; }
+    header .down {
+      bottom: 36%; }
     header nav {
       float: none;
       text-align: center;
