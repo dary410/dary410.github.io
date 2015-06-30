@@ -671,6 +671,10 @@ header nav a, header .title-description .kicker, footer .lockup .content-wrap a 
   font-weight: 700;
   text-transform: uppercase; }
 
+footer {
+  background: no-repeat center center fixed;
+    background-size: cover; }
+
 header {
   background: url(../img/bg.jpg) no-repeat center center;
     background-size: cover;
@@ -742,7 +746,7 @@ header {
 footer {
   background-image: url(../img/bg.jpg);
   background-overflow: hidden;
-  background-size: cover; }
+  width: 100%; }
   footer .logo-img {
     height: 50px;
     width: 50px;
