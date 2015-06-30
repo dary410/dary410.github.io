@@ -1,9 +1,8 @@
 header
-  background: url(../img/#{$hero-path}) no-repeat center center
+  background: url(../img/#{$hero-path}) no-repeat center center fixed
     size: cover
     overflow: hidden
   height: 100vh
-  position: relative
 
   .logo-img
     background:
@@ -26,7 +25,6 @@ header
 
       &:hover
         color: rgba(255,255,255,1)
-
   .title-description
     position: relative
     top: 28%
@@ -53,16 +51,11 @@ header
       color: white
       line-height: 1
 
-
-
   .down
-    @extend %jump
-    animation-iteration-count: infinite
     position: absolute
-    bottom: 0px
-    right: 48%
-
-
+    bottom: 10px
+    right: 50%
+    text-align: center
     a
       color: pink
       img
@@ -70,16 +63,10 @@ header
 
 @media (max-width: 640px)
   header
-    height: 60vh
+    position: 50% 20px
 
     .logo-img
       margin: 20px 44%
-
-    .title-description
-      top: 5%
-
-    .down
-      right: 44%
 
     nav
       float: none
