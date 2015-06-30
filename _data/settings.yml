@@ -108,8 +108,8 @@ clients:
 social:
 - {icon: 'twitter', link: 'https://twitter.com/daryhsu'}
 - {icon: 'dribbble', link: 'https://dribbble.com/daryproduct'}
-- {icon: 'behance', link: 'https://www.behance.net/daryproduct'}
-- {icon: 'youtube', link: 'https://www.flickr.com/photos/daryproduct'}
+- {icon: 'instagram', link: 'https://instagram.com/daryproduct/'}
+- {icon: 'flickr', link: 'https://www.flickr.com/photos/daryproduct'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/daryhsu/'}
 
 
