@@ -392,8 +392,8 @@ td, th {
 /* Animation: textSlide
  * Source: Dylan Spicker (but like really, no skill needed here) */
 header .down {
-  -webkit-animation: jump 1200ms linear both;
-  animation: jump 1200ms linear both; }
+  -webkit-animation: jump 1200ms linear infinite both;
+  animation: jump 1200ms linear infinite both; }
 
 /* Generated with Bounce.js. Edit at http://goo.gl/7JwFaK */
 @-webkit-keyframes jump {
@@ -942,6 +942,15 @@ footer {
       display: block; }
 
 /* End of gross / hackey CSS */
+.work-blurb {
+  max-width: 620px;
+  padding: 0 20px 10px;
+  margin: 30px auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+  color: white; }
+
 .work-belt {
   width: 200%;
   position: relative;
