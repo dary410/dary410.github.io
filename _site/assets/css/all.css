@@ -158,7 +158,7 @@ td, th {
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
-/* 
+/*
   Animation: bounceOut
   Source: Bounce.Js */
 .thumb-container label .thumb-overlay {
@@ -168,11 +168,11 @@ td, th {
   overflow: hidden; }
 
 .thumb-container label:hover .thumb-overlay, .clients-belt .client-unit.active-client {
-  -webkit-animation: animation 1s linear both;
-  animation: animation 1s linear both;
+  -webkit-animation: bounceOut 1s linear both;
+  animation: bounceOut 1s linear both;
   z-index: 2; }
 
-@-webkit-keyframes animation {
+@-webkit-keyframes bounceOut {
   0% {
     height: 0%;
     width: 0%;
@@ -272,7 +272,7 @@ td, th {
     width: 100%;
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@keyframes animation {
+@keyframes bounceOut {
   0% {
     height: 0%;
     width: 0%;
@@ -392,11 +392,11 @@ td, th {
 /* Animation: textSlide
  * Source: Dylan Spicker (but like really, no skill needed here) */
 header .down {
-  -webkit-animation: animation 1200ms linear infinite both;
-  animation: animation 1200ms linear infinite both; }
+  -webkit-animation: jump 1200ms linear both;
+  animation: jump 1200ms linear both; }
 
 /* Generated with Bounce.js. Edit at http://goo.gl/7JwFaK */
-@-webkit-keyframes animation {
+@-webkit-keyframes jump {
   0% {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -424,7 +424,7 @@ header .down {
   100% {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
-@keyframes animation {
+@keyframes jump {
   0% {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
