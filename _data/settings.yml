@@ -61,9 +61,9 @@ projects:
 - {name: Canal City Competition, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: Foster City Elementary School, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Assimilation, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Microsite, folder: 'proj-4', file: 'work/proj-4.html'}
-
-
+- {name: kiteworks Microsite, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: kiteworks Videos, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Settlr, folder: 'proj-6', file: 'work/proj-6.html'}
 
 
 #-------------------------------
