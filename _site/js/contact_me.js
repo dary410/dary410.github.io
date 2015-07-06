@@ -20,7 +20,7 @@ $(function() {
             $.ajax({
                 url: "../mail/contact_me.php",
                 type: "POST",
-                data: {
+                data: $('#contactForm').serialize(),
                     name: name,
                     phone: phone,
                     email: email,
