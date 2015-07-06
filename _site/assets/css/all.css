@@ -7055,7 +7055,9 @@ header {
     padding-top: 180px;
     padding-bottom: 20px; }
     header .intro-text .intro-title {
-      font-size: 40px; }
+      font-size: 36px; }
+      header .intro-text .intro-title span {
+        border: white solid 8px; }
     header .intro-text .intro-kicker {
       padding-bottom: 100px; } }
 .section-clients {
