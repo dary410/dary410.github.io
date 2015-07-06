@@ -6,10 +6,9 @@ $pass = 'ko3191501'; // place SG password here
 
 // grabs HTML form's post data; if you customize the form.html parameters then you will need to reference their new new names here
 $name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
+$email_address = $_POST['email'];
+$phone = $_POST['phone'];
 $message = $_POST['message'];
-
 
 // note the above parameters now referenced in the 'subject', 'html', and 'text' sections
 // make the to email be your own address or where ever you would like the contact form info sent
@@ -21,12 +20,12 @@ $params = array(
     'html'      => "<html><head><title> Contact Form</title><body>
     Name: $name\n<br>
     Email: $email\n<br>
-    Subject: $subject\n<br>
+    Phone: $phone\n<br>
     Message: $message <body></title></head></html>", // Set HTML here.  Will still need to make sure to reference post data names
     'text'      => "
     Name: $name\n
     Email: $email\n
-    Subject: $subject\n
+    Phone: $phone\n
     $message",
     'from'      => "noreply@daryproduct.com", // set from address here, it can really be anything
   );
