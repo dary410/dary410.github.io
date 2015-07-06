@@ -38,12 +38,6 @@ seo:
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: >
-  A **dreamer** who won't stop pursuing the **passion** of **creating products** that would,
-  cliche, make the world a better place. A good **design** is not only a must but
-  automatically becomes a happy byproduct of such pursue.
-
-
 skills:
 - {name: Communication, value: '7'}
 - {name: Planning, value: '8'}
@@ -57,13 +51,13 @@ skills:
 #-------------------------------
 # Work Section
 
-projects:
-- {name: Canal City Competition, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Foster City Elementary School, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Assimilation, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: kiteworks Microsite, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: kiteworks Videos, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Settlr, folder: 'proj-6', file: 'work/proj-6.html'}
+portfolio:
+- {name: Canal City Competition, folder: 'proj-1', file: 'portfolio/proj-1.html', modal-id: '1', client: 'Personal', project-date: '2009-12-15', category: 'Architecture'}
+- {name: Foster City Elementary School, folder: 'proj-2', file: 'portfolio/proj-2.html', modal-id: '2', client: 'WLC', project-date: '2011-09-16', category: 'Architecture'}
+- {name: Assimilation, folder: 'proj-3', file: 'portfolio/proj-3.html', modal-id: '3', client: 'Personal', project-date: '2007-07-12', category: 'Photography'}
+- {name: kiteworks Microsite, folder: 'proj-4', file: 'portfolio/proj-4.html', modal-id: '4', client: 'Accellion', project-date: '2014-12-10', category: 'Marketing'}
+- {name: kiteworks Videos, folder: 'proj-5', file: 'portfolio/proj-5.html', modal-id: '5', client: 'Accellion', project-date: '2015-06-30', category: 'Marketing'}
+- {name: Settlr, folder: 'proj-6', file: 'portfolio/proj-6.html', modal-id: '6', client: 'Personal', project-date: '2015-07-05', category: 'UI/UX Design'}
 
 
 #-------------------------------
@@ -102,15 +96,15 @@ clients:
   logo: 'logo3.png'}
 
 
-#-------------------------------
-# Contact Section
-
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-- {icon: 'twitter', link: 'https://twitter.com/daryhsu'}
-- {icon: 'dribbble', link: 'https://dribbble.com/daryproduct'}
-- {icon: 'instagram', link: 'https://instagram.com/daryproduct/'}
-- {icon: 'flickr', link: 'https://www.flickr.com/photos/daryproduct'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/daryhsu/'}
-
-
-# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+  - title: twitter
+    url: http://twitter.com/daryhsu
+  - title: flickr
+    url: https://www.flickr.com/photos/daryproduct
+  - title: dribbble
+    url: https://dribbble.com/daryproduct
+  - title: instagram
+    url: https://instagram.com/daryproduct/
+  - title: linkedin
+    url: http://www.linkedin.com/in/daryhsu/

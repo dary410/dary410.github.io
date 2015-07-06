@@ -1,19 +1,23 @@
-<footer id="footer">
-  <div class="logo-container">
-    <a class="logo-img" href="/"></a>
-  </div>
-  <div class="lockup">
-
-    <div class="content-wrap">
-      <nav>
-        {% for item in site.data.settings.menu %}
-          <a href="{{ item.url }}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
-
-      <p class="copyright">All content copyright {{ site.time | date: '%Y' }}</p>
-    </div>
-
-  </div>
-
-</footer>
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for social in site.data.settings.social %}
+                        <li><a href="{{ social.url }}"><i class="fa fa-{{ social.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a class="page-scroll" href="#page-top">back to top</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

@@ -1,90 +1,60 @@
+.navbar .container
+  padding-left: 50px
+  padding-right: 50px
+  width: 100vw
+
 header
-  background: url(../img/#{$hero-path}) no-repeat center center
-    size: cover
+  text-align: center
+  color: #fff
+  background-attachment: scroll
+  background-image: url(../img/bg.jpg)
+  background-position: center center
+  background-repeat: none
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
     overflow: hidden
-  height: 100vh
-  position: relative
-
-  .logo-img
-    background:
-      image: url(../img/#{$logo-path})
-    +size(50px)
-    float: left
-    margin: 20px 0 0 30px
-    opacity: 0.7
-
-  nav
-    float: right
-    padding: 30px 30px 0 0
-
-    a
-      display: inline-block
-      margin-left: 20px
-
-      color: rgba(255,255,255,0.7)
-      @extend %small-bold
-
-      &:hover
-        color: rgba(255,255,255,1)
-
-  .title-description
+  .intro-text
     position: relative
-    top: 28%
+    padding-top: 300px
+    padding-bottom: 50px
     text-align: center
-
-    h1
+    line-height: 1
+    .intro-title
+      margin-bottom: 25px
       font:
         size: 72px
         weight: 700
-      color: white
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
       text-transform: uppercase
       letter-spacing: 0.05em
-      margin-bottom: 20px
-      clear: both
-
       span
         display: inline-block
         padding: 0.2em 0.5em
         border: white solid 10px
-
-    .kicker
-      @extend %small-bold
+    .intro-kicker
+      padding-bottom: 250px
       letter-spacing: 0.05em
-      color: white
-      line-height: 1
-
-
-
-  .down
-    @extend %jump
-    animation-iteration-count: infinite
-    position: absolute
-    bottom: 0px
-    right: 48%
-
-
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+      text-transform: uppercase
+      font-size: 14px
+      font-weight: 400
     a
-      color: pink
+      @extend %jump
+      animation-iteration-count: infinite
       img
         +size(50px)
 
 @media (max-width: 640px)
-  header
-    height: 60vh
-
-    .logo-img
-      margin: 20px 44%
-
-    .title-description
-      top: 5%
-
-    .down
-      right: 44%
-
-    nav
-      float: none
-      text-align: center
-      padding-top: 90px
-
-    h1
-      padding-top: 0px
+  .navbar .container
+    padding-left: 20px
+    padding-right: 20px
+  header .intro-text
+    padding-top: 180px
+    padding-bottom: 20px
+    .intro-title
+      font:
+        size: 40px
+    .intro-kicker
+      padding-bottom: 100px
