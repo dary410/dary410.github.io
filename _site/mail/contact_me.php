@@ -1,39 +1,59 @@
 <?php
-	if (isset($_POST["submit"])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$message = $_POST['message'];
-		$human = intval($_POST['human']);
-		$from = 'Demo Contact Form';
-		$to = 'dary410@gmail.com'; 
-		$subject = 'Message from Contact Demo ';
+// use actual sendgrid username and password in this section
+$url = 'https://api.sendgrid.com/';
+$user = 'dary410'; // place SG username here
+$pass = 'ko3191501'; // place SG password here
 
-		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
-		// Check if name has been entered
-		if (!$_POST['name']) {
-			$errName = 'Please enter your name';
-		}
+// grabs HTML form's post data; if you customize the form.html parameters then you will need to reference their new new names here
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
-		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			$errEmail = 'Please enter a valid email address';
-		}
 
-		//Check if message has been entered
-		if (!$_POST['message']) {
-			$errMessage = 'Please enter your message';
-		}
-		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
-			$errHuman = 'Your anti-spam is incorrect';
-		}
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-	if (mail ($to, $subject, $body, $from)) {
-		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-	} else {
-		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
-	}
-}
-	}
+// note the above parameters now referenced in the 'subject', 'html', and 'text' sections
+// make the to email be your own address or where ever you would like the contact form info sent
+$params = array(
+    'api_user'  => "$user",
+    'api_key'   => "$pass",
+    'to'        => "dary410@gmail.com", // set TO address to have the contact form's email content sent to
+    'subject'   => "Contact Form Submission", // Either give a subject for each submission, or set to $subject
+    'html'      => "<html><head><title> Contact Form</title><body>
+    Name: $name\n<br>
+    Email: $email\n<br>
+    Subject: $subject\n<br>
+    Message: $message <body></title></head></html>", // Set HTML here.  Will still need to make sure to reference post data names
+    'text'      => "
+    Name: $name\n
+    Email: $email\n
+    Subject: $subject\n
+    $message",
+    'from'      => "noreply@daryproduct.com", // set from address here, it can really be anything
+  );
+
+
+curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
+$request =  $url.'api/mail.send.json';
+
+// Generate curl request
+$session = curl_init($request);
+// Tell curl to use HTTP POST
+curl_setopt ($session, CURLOPT_POST, true);
+// Tell curl that this is the body of the POST
+curl_setopt ($session, CURLOPT_POSTFIELDS, $params);
+// Tell curl not to return headers, but do return the response
+curl_setopt($session, CURLOPT_HEADER, false);
+curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
+
+// obtain response
+$response = curl_exec($session);
+curl_close($session);
+
+// Redirect to thank you page upon successfull completion, will want to build one if you don't alreday have one available
+header('Location: thanks.html'); // feel free to use whatever title you wish for thank you landing page, but will need to reference that file name in place of the present 'thanks.html'
+exit();
+
+// print everything out
+print_r($response);
+
 ?>
