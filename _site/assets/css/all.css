@@ -5799,8 +5799,9 @@ button.close {
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0. */
-body {
-  overflow-x: hidden;
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333; }
 
@@ -6997,6 +6998,11 @@ header .intro-text a {
       width: 220px; } }
 .proj-container img {
   max-width: 100%; }
+
+.navbar .container {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100vw; }
 
 header {
   text-align: center;
