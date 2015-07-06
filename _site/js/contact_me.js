@@ -20,7 +20,12 @@ $(function() {
             $.ajax({
                 url: "//formspree.io/dary@daryproduct.com",
                 method: "POST",
-                data: $('#contactForm').serialize(),
+                data: {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                },
                 dataType: "json",
                 cache: false,
                 success: function() {
