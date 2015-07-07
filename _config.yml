@@ -1,5 +1,3 @@
-url: http://www.daryproduct.com
-
 # Site settings
 title: daryproduct
 email: dary@daryproduct.com
@@ -14,6 +12,8 @@ color:
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments
+paginate: 3
 
 port: 7000
 
