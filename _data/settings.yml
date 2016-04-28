@@ -64,7 +64,7 @@ portfolio:
 # Clients Section
 
 clients:
-- {avatar: 'DataSift-logo.png',
+- {avatar: 'DataSift-logo.jpg',
   name: 'DataSift',
   title: 'Product Marketing Manager',
   quote: '<h5>September 2015 - Present</h5>
