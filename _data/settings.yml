@@ -19,7 +19,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
+  description: 'Personal website for a product dreamer, thinker, designer and marketer.'
   rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
   rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
 
@@ -64,17 +64,26 @@ portfolio:
 # Clients Section
 
 clients:
+- {avatar: 'DataSift-logo.png',
+  name: 'DataSift',
+  title: 'Product Marketing Manager',
+  quote: '<h5>September 2015 - Present</h5>
+          <p><li>Define PYLON platform and product messaging and execute product launch plan including internal and customer communication and creating outbound marketing collaterals such as datasheet, web content, blogs and more</li></p>
+          <p><li>Led partner success initiative by creating partner sales toolkit for customer marketing success and greater upsell opportunities</li></p>
+          <p><li>Drive demand generation and content marketing activities including webinar, e-newsletter, ads targeting and event planning</li></p>
+          <p><li>Enable sales by conducting sales training sessions and creating sales deck, battle cards, account-based marketing and more</li></p>
+          <p><li>Rsearch potential new market for PYLON for Facebook topic data to increase addressable market for Facebook topic data</li></p>',
+  logo: 'logo1.png'}
 - {avatar: 'Accellion-logo.jpg',
   name: 'Accellion',
-  title: 'Product Marketing Manager',
-  quote: '<h5>June 2013 - Present</h5>
+  title: 'Associate Product Marketing Manager',
+  quote: '<h5>June 2013 - September 2015</h5>
           <p><li>Drive mobile solution adoption by creating personas/storyboard to understand user workflow, and defining metrics to increase mobile app adoption by analyzing customer usage, reviews, and competitors</li></p>
           <p><li>Develop vertical marketing strategy and materials to drive product adoption in the legal industry; present to global sales force in a sales training webinar</li></p>
           <p><li>Execute product launch plan including planning launch event, updating datasheets and web contents, preparing analyst briefing materials, and creating sales alert and use cases to demonstrate product features</li></p>
           <p><li>Collaborate on product development with cross-functional team of sales, product management, public relations</li></p>
-          <p><li>Enhance mobile app UX through usability research; monitor competitor and industry trends to make product feature recommendations</li></p>
           <p><li>Create internal sales materials and outbound marketing collaterals such as datasheet, web content, blogs, e-newsletter</li></p>',
-  logo: 'logo1.png'}
+  logo: 'logo2.png'}
 - {avatar: 'Box-logo.jpg',
   name: 'Box',
   title: 'Customer Success Operations Intern',
@@ -83,7 +92,7 @@ clients:
           <p><li>Developed strategy to streamline Billing Operations cancellation process by identifying dependencies</li></p>
           <p><li>Oversaw entire customer lifecycle from provisioning to close lost accounts in Salesforce and internal tools</li></p>
           <p><li>Built Salesforce reports to quantify Client Services upsell opportunities and account growth forecasts</li></p>',
-  logo: 'logo2.png'}
+  logo: 'logo3.png'}
 - {avatar: 'WLC-logo.jpg',
   name: 'WLC Architects',
   title: 'Designer',
@@ -93,7 +102,7 @@ clients:
           <p><li>Created marketing proposals and meeting presentation materials that successfully increased number of request for proposals and new projects</li></p>
           <p><li>Generated preliminary project schedule and budget estimates</li></p>
           <p><li>Developed master plan, schematic, design, construction drawings for state agency DSA submittal</li></p>',
-  logo: 'logo3.png'}
+  logo: 'logo4.png'}
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
