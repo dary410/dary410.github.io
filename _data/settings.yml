@@ -68,40 +68,39 @@ clients:
   name: 'DataSift',
   title: 'Product Marketing Manager',
   quote: '<h5>September 2015 - Present</h5>
-          <p><li>Define PYLON platform and product messaging and execute product launch plan including internal and customer communication and creating outbound marketing collaterals such as datasheet, web content, blogs and more</li></p>
-          <p><li>Led partner success initiative by creating partner sales toolkit for customer marketing success and greater upsell opportunities</li></p>
-          <p><li>Drive demand generation and content marketing activities including webinar, e-newsletter, ads targeting and event planning</li></p>
-          <p><li>Enable sales by conducting sales training sessions and creating sales deck, battle cards, account-based marketing and more</li></p>
-          <p><li>Rsearch potential new market for PYLON for Facebook topic data to increase addressable market for Facebook topic data</li></p>',
+          <p><li>Develop marketing strategies and campaigns to drive awareness and growth of the PYLON social analytics platform for Facebook Topic Data; results in 3x growth in customer base within 12 months</li></p>
+          <p><li>Define product messaging to educate prospects and customers about the use cases, best practices, and benefits</li></p>
+          <p><li>Execute product launch plan for new product and feature releases from handling internal and customer communication to creating marketing collaterals such as web content, datasheet, whitepapers, and blogs</li></p>
+          <p><li>Enable sales and services to sell the DataSift story effectively through sales training and creating sales collaterals such as product presentations, product guides, and competitive briefs</li></p>
+          <p><li>Drive demand generation and content marketing activities including webinar, e-newsletter, and automated free trial; results in an average of 22% increase in content engagement and 30% increase in trial signups</li></p>
+          <p><li>Lead the partner success initiative to drive success of the ecosystem including creating partner toolkit and microsite</li></p>',
   logo: 'logo1.png'}
 - {avatar: 'Accellion-logo.jpg',
   name: 'Accellion',
   title: 'Associate Product Marketing Manager',
   quote: '<h5>June 2013 - September 2015</h5>
-          <p><li>Drive mobile solution adoption by creating personas/storyboard to understand user workflow, and defining metrics to increase mobile app adoption by analyzing customer usage, reviews, and competitors</li></p>
-          <p><li>Develop vertical marketing strategy and materials to drive product adoption in the legal industry; present to global sales force in a sales training webinar</li></p>
-          <p><li>Execute product launch plan including planning launch event, updating datasheets and web contents, preparing analyst briefing materials, and creating sales alert and use cases to demonstrate product features</li></p>
-          <p><li>Collaborate on product development with cross-functional team of sales, product management, public relations</li></p>
-          <p><li>Create internal sales materials and outbound marketing collaterals such as datasheet, web content, blogs, e-newsletter</li></p>',
+          <p><li>Managed Accellion’s kiteworks content platform by monitoring product performance, designing marketing programs to drive product awareness, developing content for lead generation, and enabling sales with new releases</li></p>
+          <p><li>Developed vertical marketing strategy and content to increase adoption in the legal industry by 10%</li></p>
+          <p><li>Increased mobile app conversion through app store optimization and implementing in-app tutorials</li></p>
+          <p><li>Created outbound collaterals (data sheets, web content, microsite, videos, white papers, blogs, infographics, etc.) and internal sales tools (ROI calculator, sales alerts, battle cards, etc.)</li></p>
+          <p><li>Collaborated cross-functionally with PMs, engineers, internal creative team, and external vendors</li></p>',
   logo: 'logo2.png'}
 - {avatar: 'Box-logo.jpg',
   name: 'Box',
   title: 'Customer Success Operations Intern',
   quote: '<h5>May 2012 - September 2012</h5>
-          <p><li>Collaborated with Engineering to automate in-app upgrade conversion process and reduce man-hours by 70%</li></p>
-          <p><li>Developed strategy to streamline Billing Operations cancellation process by identifying dependencies</li></p>
-          <p><li>Oversaw entire customer lifecycle from provisioning to close lost accounts in Salesforce and internal tools</li></p>
-          <p><li>Built Salesforce reports to quantify Client Services upsell opportunities and account growth forecasts</li></p>',
+          <p><li>Automated in-app upgrade conversion process with Engineering to reduce man-hours by 70%</li></p>
+          <p><li>Developed strategy to streamline account cancellation process by identifying dependencies</li></p>
+          <p><li>Built Salesforce reports to quantify upsell opportunities and forecast account growth</li></p>',
   logo: 'logo3.png'}
 - {avatar: 'WLC-logo.jpg',
   name: 'WLC Architects',
   title: 'Designer',
   quote: '<h5>August 2008 - September 2011</h5>
-          <p><li>Generated unique design concepts with innovative building systems and materials that incorporates guidelines from design charades with clients</li></p>
-          <p><li>Coordinated cross function consultant team to provide integrative, comprehensive solutions while enhancing productivity and communication</li></p>
-          <p><li>Created marketing proposals and meeting presentation materials that successfully increased number of request for proposals and new projects</li></p>
-          <p><li>Generated preliminary project schedule and budget estimates</li></p>
-          <p><li>Developed master plan, schematic, design, construction drawings for state agency DSA submittal</li></p>',
+          <p><li>Conducted client workshops and design charades to discover client needs</li></p>
+          <p><li>Generated sustainable design concepts using innovative building technology and materials</li></p>
+          <p><li>Developed master plan, schematic, design, construction drawings for state agency review</li></p>
+          <p><li>Collaborated with engineers and consultants on project development from concept to construction</li></p>',
   logo: 'logo4.png'}
 
 
